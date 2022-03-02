@@ -21,7 +21,7 @@ def printname(name, count):
 
 if __name__ == '__main__':
 
-    max = 250
+    max = 50
     count = 0
 
     while count < max:
@@ -31,7 +31,7 @@ if __name__ == '__main__':
         index = random.randrange(0, len(names))
         printname(names[index], count)
 
-        time.sleep(1)
+        time.sleep(.5)
 
 
 
