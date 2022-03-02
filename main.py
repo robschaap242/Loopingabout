@@ -31,7 +31,7 @@ if __name__ == '__main__':
         index = random.randrange(0, len(names))
         printname(names[index], count)
 
-        time.sleep(2)
+        time.sleep(1)
 
 
 
